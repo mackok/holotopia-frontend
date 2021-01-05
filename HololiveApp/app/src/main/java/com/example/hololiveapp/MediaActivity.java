@@ -6,21 +6,31 @@ import android.widget.MediaController;
 import android.widget.VideoView;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+import com.google.android.exoplayer2.ExoPlayer;
+import com.google.android.exoplayer2.MediaItem;
+import com.google.android.exoplayer2.SimpleExoPlayer;
+import com.google.android.exoplayer2.ui.PlayerView;
 
 public class MediaActivity extends AppCompatActivity {
+
+    SimpleExoPlayer player;
+    PlayerView playerView;
+
+
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mediaplayer);
-
-        VideoView vidView = (VideoView) findViewById(R.id.video_view);
-        Uri uri = Uri.parse("rtsp://r7—sn-4g57kue6.googlevideo.com/Ck0LENy73wIaRAmk3cJBg-iaXhMYDSANFC0k8JRWMOCoAUIJbXYtZ29vZ2xlSARSBXdhdGNoYKK205Ti2LaNVooBC2lZYlRtN201YTlRDA==/9EFB79E36D6A4191F3BF60D01A0AE429B5C9AA32.B774C6D2C0948C3A49A088F9F5CCCFBE34864B29/yt6/1/video.3gp");
-        vidView.setVideoURI(uri);
-
-        MediaController medcontrol = new MediaController(this);
-        vidView.setMediaController(medcontrol);
-
-
-
+        player = new SimpleExoPlayer.Builder(this).build();
+        playerView = findViewById(R.id.exoplayview);
+        playerView.setPlayer(player);
+        //video
+        //MediaItem mediaItem = MediaItem.fromUri("https://videocdn.bodybuilding.com/video/mp4/62000/62792m.mp4");
+        //livestream
+        MediaItem mediaItem = MediaItem.fromUri("http://f24hls-i.akamaihd.net/hls/live/221147/F24_EN_HI_HLS/master_2000.m3u8");
+        player.setMediaItem(mediaItem);
+        player.prepare();
+        player.play();
     }
 }
