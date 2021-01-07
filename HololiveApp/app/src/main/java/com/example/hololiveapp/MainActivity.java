@@ -15,9 +15,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void PlayMedia(View view){
-
-        Intent mediaIntent = new Intent(MainActivity.this, MediaActivity.class);
-        startActivity(mediaIntent);
+        startActivity(new Intent(MainActivity.this, MediaActivity.class));
     }
 
     public void goToGallery(View view){
