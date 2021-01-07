@@ -20,4 +20,8 @@ public class MainActivity extends AppCompatActivity {
         startActivity(mediaIntent);
     }
 
+    public void goToGallery(View view){
+        startActivity(new Intent(this,VtuberLibraryActivity.class));
+    }
+
 }

@@ -1,12 +1,9 @@
 package com.example.hololiveapp;
 
-import android.net.Uri;
+
 import android.os.Bundle;
-import android.widget.MediaController;
-import android.widget.VideoView;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
-import com.google.android.exoplayer2.ExoPlayer;
 import com.google.android.exoplayer2.MediaItem;
 import com.google.android.exoplayer2.SimpleExoPlayer;
 import com.google.android.exoplayer2.ui.PlayerView;
