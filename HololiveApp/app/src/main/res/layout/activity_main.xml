@@ -24,7 +24,7 @@
             android:text="@string/library_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/gallery_button"
+            android:id="@+id/library_button"
             android:onClick="goToGallery"
             app:layout_constraintEnd_toStartOf="@+id/MediaB"
             app:layout_constraintStart_toStartOf="parent"
