@@ -32,12 +32,12 @@
         "source": "C:\\Users\\Judicator\\Documents\\Front-End_Holotopia\\holotopia-frontend\\HololiveApp\\app\\src\\main\\res\\drawable\\gura_splash.png"
     },
     {
-        "merged": "C:\\Users\\Judicator\\Documents\\Front-End_Holotopia\\holotopia-frontend\\HololiveApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Judicator\\Documents\\Front-End_Holotopia\\holotopia-frontend\\HololiveApp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
-    },
-    {
         "merged": "C:\\Users\\Judicator\\Documents\\Front-End_Holotopia\\holotopia-frontend\\HololiveApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
         "source": "C:\\Users\\Judicator\\Documents\\Front-End_Holotopia\\holotopia-frontend\\HololiveApp\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Judicator\\Documents\\Front-End_Holotopia\\holotopia-frontend\\HololiveApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Judicator\\Documents\\Front-End_Holotopia\\holotopia-frontend\\HololiveApp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\Judicator\\Documents\\Front-End_Holotopia\\holotopia-frontend\\HololiveApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
@@ -94,6 +94,10 @@
     {
         "merged": "C:\\Users\\Judicator\\Documents\\Front-End_Holotopia\\holotopia-frontend\\HololiveApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "C:\\Users\\Judicator\\Documents\\Front-End_Holotopia\\holotopia-frontend\\HololiveApp\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Judicator\\Documents\\Front-End_Holotopia\\holotopia-frontend\\HololiveApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_guraav.png.flat",
+        "source": "C:\\Users\\Judicator\\Documents\\Front-End_Holotopia\\holotopia-frontend\\HololiveApp\\app\\src\\main\\res\\drawable\\guraav.png"
     },
     {
         "merged": "C:\\Users\\Judicator\\Documents\\Front-End_Holotopia\\holotopia-frontend\\HololiveApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",

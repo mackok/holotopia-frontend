@@ -3,4 +3,5 @@
     <string name="media_start_button">Play Media</string>
     <string name="splashtext">HoloTopia</string>
     <string name="library_button">Vtuber Gallery</string>
+    <string name="avatar_pic">avatarpicture</string>
 </resources>
