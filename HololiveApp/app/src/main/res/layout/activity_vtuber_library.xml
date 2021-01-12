@@ -6,7 +6,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".VtuberLibraryActivity"
-        android:id="@+id/scroll_view">
+        android:id="@+id/scroll_view"
+        android:background="@color/colorPrimary">
 
     <LinearLayout
             android:orientation="vertical"
@@ -17,127 +18,48 @@
 
         <ImageView
                 android:layout_width="100dp"
-                android:layout_height="92dp"
+                android:layout_height="111dp"
                 android:id="@+id/waifu1"
-                android:src="@drawable/guraav"
+                android:src="@drawable/gura_av"
                 android:contentDescription="@string/avatar_pic"
-                android:layout_marginStart="150dp"
+                android:layout_marginStart="20dp"
                 />
 
         <ImageView
                 android:layout_width="100dp"
                 android:layout_height="92dp"
                 android:id="@+id/waifu2"
-                android:src="@drawable/guraav"
+                android:src="@drawable/mori_av"
                 android:contentDescription="@string/avatar_pic"
-                android:layout_marginStart="150dp"
+                android:layout_marginStart="20dp"
                 />
 
         <ImageView
-                android:layout_width="100dp"
-                android:layout_height="92dp"
+                android:layout_width="104dp"
+                android:layout_height="96dp"
                 android:id="@+id/waifu3"
-                android:src="@drawable/guraav"
+                android:src="@drawable/watson_av"
                 android:contentDescription="@string/avatar_pic"
-                android:layout_marginStart="150dp"
+                android:layout_marginStart="20dp"
                 />
 
         <ImageView
-                android:layout_width="100dp"
-                android:layout_height="92dp"
+                android:layout_width="103dp"
+                android:layout_height="100dp"
                 android:id="@+id/waifu5"
-                android:src="@drawable/guraav"
+                android:src="@drawable/takanashi_av"
                 android:contentDescription="@string/avatar_pic"
-                android:layout_marginStart="150dp"
+                android:layout_marginStart="20dp"
                 />
+
         <ImageView
-                android:layout_width="100dp"
-                android:layout_height="92dp"
+                android:layout_width="119dp"
+                android:layout_height="145dp"
                 android:id="@+id/waifu6"
-                android:src="@drawable/guraav"
+                android:src="@drawable/ninomae_av"
                 android:contentDescription="@string/avatar_pic"
-                android:layout_marginStart="150dp"
-                /><ImageView
-            android:layout_width="100dp"
-            android:layout_height="92dp"
-            android:id="@+id/waifu7"
-            android:src="@drawable/guraav"
-            android:contentDescription="@string/avatar_pic"
-            android:layout_marginStart="150dp"
-            />
-        <ImageView
-                android:layout_width="100dp"
-                android:layout_height="92dp"
-                android:id="@+id/waifu8"
-                android:src="@drawable/guraav"
-                android:contentDescription="@string/avatar_pic"
-                android:layout_marginStart="150dp"
+                android:layout_marginStart="20dp"
                 />
-        <ImageView
-                android:layout_width="100dp"
-                android:layout_height="92dp"
-                android:id="@+id/waifu9"
-                android:src="@drawable/guraav"
-                android:contentDescription="@string/avatar_pic"
-                android:layout_marginStart="150dp"
-                />
-        <ImageView
-                android:layout_width="100dp"
-                android:layout_height="92dp"
-                android:id="@+id/waifu10"
-                android:src="@drawable/guraav"
-                android:contentDescription="@string/avatar_pic"
-                android:layout_marginStart="150dp"
-                /><ImageView
-            android:layout_width="100dp"
-            android:layout_height="92dp"
-            android:id="@+id/waifu11"
-            android:src="@drawable/guraav"
-            android:contentDescription="@string/avatar_pic"
-            android:layout_marginStart="150dp"
-            />
-        <ImageView
-                android:layout_width="100dp"
-                android:layout_height="92dp"
-                android:id="@+id/waifu12"
-                android:src="@drawable/guraav"
-                android:contentDescription="@string/avatar_pic"
-                android:layout_marginStart="150dp"
-                /><ImageView
-            android:layout_width="100dp"
-            android:layout_height="92dp"
-            android:id="@+id/waifu13"
-            android:src="@drawable/guraav"
-            android:contentDescription="@string/avatar_pic"
-            android:layout_marginStart="150dp"
-            /><ImageView
-            android:layout_width="100dp"
-            android:layout_height="92dp"
-            android:id="@+id/waifu14"
-            android:src="@drawable/guraav"
-            android:contentDescription="@string/avatar_pic"
-            android:layout_marginStart="150dp"
-            /><ImageView
-            android:layout_width="100dp"
-            android:layout_height="92dp"
-            android:id="@+id/waifu15"
-            android:src="@drawable/guraav"
-            android:contentDescription="@string/avatar_pic"
-            android:layout_marginStart="150dp"
-            /><ImageView
-            android:layout_width="100dp"
-            android:layout_height="92dp"
-            android:id="@+id/waifu16"
-            android:src="@drawable/guraav"
-            android:contentDescription="@string/avatar_pic"
-            android:layout_marginStart="150dp"
-            />
-
-
-
-
-
-
 
 
     </LinearLayout>
