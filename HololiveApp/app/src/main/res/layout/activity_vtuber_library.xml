@@ -1,8 +1,100 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
+<androidx.core.widget.NestedScrollView
         xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
         xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".VtuberLibraryActivity"/>
+        tools:context=".VtuberLibraryActivity"
+        android:id="@+id/scroll_view"
+        android:background="@color/colorPrimary">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lin_lay"
+            android:background="@color/colorPrimary">
+
+        <TextView
+                android:text="@string/library_title_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginTop="15dp"
+                android:id="@+id/title_text"
+                android:textColor="@color/exo_white"
+                android:textSize="20sp"
+                android:fontFamily="@font/commando"/>
+
+        <TextView
+                android:text="@string/library_instruction_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/instruction_text"
+                android:textColor="@color/exo_white"
+                android:textSize="15sp"
+                android:fontFamily="@font/commando"/>
+
+        <ImageView
+                android:layout_width="247dp"
+                android:layout_height="89dp"
+                android:id="@+id/waifu1"
+                android:src="@drawable/gura_banner"
+                android:contentDescription="@string/avatar_pic"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/colorPrimaryDark"
+                android:onClick="guraBio"
+                />
+
+        <ImageView
+                android:layout_width="247dp"
+                android:layout_height="89dp"
+                android:id="@+id/waifu2"
+                android:src="@drawable/mori_banner"
+                android:contentDescription="@string/avatar_pic"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimaryDark"
+                />
+
+        <ImageView
+                android:layout_width="247dp"
+                android:layout_height="89dp"
+                android:id="@+id/waifu3"
+                android:src="@drawable/watson_banner"
+                android:contentDescription="@string/avatar_pic"
+                android:layout_marginStart="60dp"
+                android:background="@color/colorPrimaryDark"
+                android:layout_marginTop="10dp"
+                />
+
+        <ImageView
+                android:layout_width="247dp"
+                android:layout_height="89dp"
+                android:id="@+id/waifu5"
+                android:src="@drawable/taka_banner"
+                android:contentDescription="@string/avatar_pic"
+                android:layout_marginStart="60dp"
+                android:background="@color/colorPrimaryDark"
+                android:layout_marginTop="10dp"
+                />
+
+        <ImageView
+                android:layout_width="247dp"
+                android:layout_height="89dp"
+                android:id="@+id/waifu6"
+                android:src="@drawable/nino_banner"
+                android:contentDescription="@string/avatar_pic"
+                android:layout_marginStart="60dp"
+                android:background="@color/colorPrimaryDark"
+                android:layout_marginTop="10dp"
+                />
+
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

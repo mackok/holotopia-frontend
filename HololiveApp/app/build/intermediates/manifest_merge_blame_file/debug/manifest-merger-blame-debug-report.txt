@@ -1,0 +1,85 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.hololiveapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->C:\Users\Judicator\Documents\Front-End_Holotopia\holotopia-frontend\HololiveApp\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\Judicator\Documents\Front-End_Holotopia\holotopia-frontend\HololiveApp\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Judicator\Documents\Front-End_Holotopia\holotopia-frontend\HololiveApp\app\src\main\AndroidManifest.xml:5:5-66
+11-->C:\Users\Judicator\Documents\Front-End_Holotopia\holotopia-frontend\HololiveApp\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\Judicator\Documents\Front-End_Holotopia\holotopia-frontend\HololiveApp\app\src\main\AndroidManifest.xml:6:5-78
+12-->C:\Users\Judicator\Documents\Front-End_Holotopia\holotopia-frontend\HololiveApp\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->C:\Users\Judicator\Documents\Front-End_Holotopia\holotopia-frontend\HololiveApp\app\src\main\AndroidManifest.xml:7:5-75
+13-->C:\Users\Judicator\Documents\Front-End_Holotopia\holotopia-frontend\HololiveApp\app\src\main\AndroidManifest.xml:7:22-73
+14
+15    <application
+15-->C:\Users\Judicator\Documents\Front-End_Holotopia\holotopia-frontend\HololiveApp\app\src\main\AndroidManifest.xml:9:5-37:19
+16        android:allowBackup="true"
+16-->C:\Users\Judicator\Documents\Front-End_Holotopia\holotopia-frontend\HololiveApp\app\src\main\AndroidManifest.xml:10:13-39
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.3.1] C:\Users\Judicator\.gradle\caches\transforms-2\files-2.1\905808b10bc47511b6c6896a37787f2b\core-1.3.1\AndroidManifest.xml:24:18-86
+18        android:debuggable="true"
+19        android:extractNativeLibs="false"
+20        android:icon="@mipmap/ic_launcher"
+20-->C:\Users\Judicator\Documents\Front-End_Holotopia\holotopia-frontend\HololiveApp\app\src\main\AndroidManifest.xml:11:13-47
+21        android:label="@string/app_name"
+21-->C:\Users\Judicator\Documents\Front-End_Holotopia\holotopia-frontend\HololiveApp\app\src\main\AndroidManifest.xml:12:13-45
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->C:\Users\Judicator\Documents\Front-End_Holotopia\holotopia-frontend\HololiveApp\app\src\main\AndroidManifest.xml:13:13-58
+23        android:supportsRtl="true"
+23-->C:\Users\Judicator\Documents\Front-End_Holotopia\holotopia-frontend\HololiveApp\app\src\main\AndroidManifest.xml:14:13-39
+24        android:testOnly="true"
+25        android:theme="@style/AppTheme"
+25-->C:\Users\Judicator\Documents\Front-End_Holotopia\holotopia-frontend\HololiveApp\app\src\main\AndroidManifest.xml:15:13-44
+26        android:usesCleartextTraffic="true" >
+26-->C:\Users\Judicator\Documents\Front-End_Holotopia\holotopia-frontend\HololiveApp\app\src\main\AndroidManifest.xml:16:13-48
+27        <activity android:name="com.example.hololiveapp.GuraBioActivity" >
+27-->C:\Users\Judicator\Documents\Front-End_Holotopia\holotopia-frontend\HololiveApp\app\src\main\AndroidManifest.xml:17:9-18:20
+27-->C:\Users\Judicator\Documents\Front-End_Holotopia\holotopia-frontend\HololiveApp\app\src\main\AndroidManifest.xml:17:19-50
+28        </activity>
+29        <activity android:name="com.example.hololiveapp.VtuberLibraryActivity" >
+29-->C:\Users\Judicator\Documents\Front-End_Holotopia\holotopia-frontend\HololiveApp\app\src\main\AndroidManifest.xml:19:9-20:20
+29-->C:\Users\Judicator\Documents\Front-End_Holotopia\holotopia-frontend\HololiveApp\app\src\main\AndroidManifest.xml:19:19-56
+30        </activity>
+31        <activity
+31-->C:\Users\Judicator\Documents\Front-End_Holotopia\holotopia-frontend\HololiveApp\app\src\main\AndroidManifest.xml:21:9-29:20
+32            android:name="com.example.hololiveapp.SplashActivity"
+32-->C:\Users\Judicator\Documents\Front-End_Holotopia\holotopia-frontend\HololiveApp\app\src\main\AndroidManifest.xml:22:17-47
+33            android:theme="@style/SplashTheme" >
+33-->C:\Users\Judicator\Documents\Front-End_Holotopia\holotopia-frontend\HololiveApp\app\src\main\AndroidManifest.xml:23:17-51
+34            <intent-filter>
+34-->C:\Users\Judicator\Documents\Front-End_Holotopia\holotopia-frontend\HololiveApp\app\src\main\AndroidManifest.xml:24:13-28:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->C:\Users\Judicator\Documents\Front-End_Holotopia\holotopia-frontend\HololiveApp\app\src\main\AndroidManifest.xml:25:17-68
+35-->C:\Users\Judicator\Documents\Front-End_Holotopia\holotopia-frontend\HololiveApp\app\src\main\AndroidManifest.xml:25:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->C:\Users\Judicator\Documents\Front-End_Holotopia\holotopia-frontend\HololiveApp\app\src\main\AndroidManifest.xml:27:17-76
+37-->C:\Users\Judicator\Documents\Front-End_Holotopia\holotopia-frontend\HololiveApp\app\src\main\AndroidManifest.xml:27:27-74
+38            </intent-filter>
+39        </activity>
+40        <activity android:name="com.example.hololiveapp.MainActivity" >
+40-->C:\Users\Judicator\Documents\Front-End_Holotopia\holotopia-frontend\HololiveApp\app\src\main\AndroidManifest.xml:30:9-31:20
+40-->C:\Users\Judicator\Documents\Front-End_Holotopia\holotopia-frontend\HololiveApp\app\src\main\AndroidManifest.xml:30:19-47
+41        </activity>
+42        <activity android:name="com.example.hololiveapp.MediaActivity" />
+42-->C:\Users\Judicator\Documents\Front-End_Holotopia\holotopia-frontend\HololiveApp\app\src\main\AndroidManifest.xml:32:9-50
+42-->C:\Users\Judicator\Documents\Front-End_Holotopia\holotopia-frontend\HololiveApp\app\src\main\AndroidManifest.xml:32:19-48
+43
+44        <meta-data
+44-->C:\Users\Judicator\Documents\Front-End_Holotopia\holotopia-frontend\HololiveApp\app\src\main\AndroidManifest.xml:34:9-36:60
+45            android:name="preloaded_fonts"
+45-->C:\Users\Judicator\Documents\Front-End_Holotopia\holotopia-frontend\HololiveApp\app\src\main\AndroidManifest.xml:35:17-47
+46            android:resource="@array/preloaded_fonts" />
+46-->C:\Users\Judicator\Documents\Front-End_Holotopia\holotopia-frontend\HololiveApp\app\src\main\AndroidManifest.xml:36:17-58
+47    </application>
+48
+49</manifest>
