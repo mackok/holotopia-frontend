@@ -16,49 +16,83 @@
             android:id="@+id/lin_lay"
             android:background="@color/colorPrimary">
 
+        <TextView
+                android:text="@string/library_title_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginTop="15dp"
+                android:id="@+id/title_text"
+                android:textColor="@color/exo_white"
+                android:textSize="20sp"
+                android:fontFamily="@font/commando"/>
+
+        <TextView
+                android:text="@string/library_instruction_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/instruction_text"
+                android:textColor="@color/exo_white"
+                android:textSize="15sp"
+                android:fontFamily="@font/commando"/>
+
         <ImageView
-                android:layout_width="100dp"
-                android:layout_height="111dp"
+                android:layout_width="247dp"
+                android:layout_height="89dp"
                 android:id="@+id/waifu1"
-                android:src="@drawable/gura_av"
+                android:src="@drawable/gura_banner"
                 android:contentDescription="@string/avatar_pic"
-                android:layout_marginStart="20dp"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/colorPrimaryDark"
+                android:onClick="guraBio"
                 />
 
         <ImageView
-                android:layout_width="100dp"
-                android:layout_height="92dp"
+                android:layout_width="247dp"
+                android:layout_height="89dp"
                 android:id="@+id/waifu2"
-                android:src="@drawable/mori_av"
+                android:src="@drawable/mori_banner"
                 android:contentDescription="@string/avatar_pic"
-                android:layout_marginStart="20dp"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimaryDark"
                 />
 
         <ImageView
-                android:layout_width="104dp"
-                android:layout_height="96dp"
+                android:layout_width="247dp"
+                android:layout_height="89dp"
                 android:id="@+id/waifu3"
-                android:src="@drawable/watson_av"
+                android:src="@drawable/watson_banner"
                 android:contentDescription="@string/avatar_pic"
-                android:layout_marginStart="20dp"
+                android:layout_marginStart="60dp"
+                android:background="@color/colorPrimaryDark"
+                android:layout_marginTop="10dp"
                 />
 
         <ImageView
-                android:layout_width="103dp"
-                android:layout_height="100dp"
+                android:layout_width="247dp"
+                android:layout_height="89dp"
                 android:id="@+id/waifu5"
-                android:src="@drawable/takanashi_av"
+                android:src="@drawable/taka_banner"
                 android:contentDescription="@string/avatar_pic"
-                android:layout_marginStart="20dp"
+                android:layout_marginStart="60dp"
+                android:background="@color/colorPrimaryDark"
+                android:layout_marginTop="10dp"
                 />
 
         <ImageView
-                android:layout_width="119dp"
-                android:layout_height="145dp"
+                android:layout_width="247dp"
+                android:layout_height="89dp"
                 android:id="@+id/waifu6"
-                android:src="@drawable/ninomae_av"
+                android:src="@drawable/nino_banner"
                 android:contentDescription="@string/avatar_pic"
-                android:layout_marginStart="20dp"
+                android:layout_marginStart="60dp"
+                android:background="@color/colorPrimaryDark"
+                android:layout_marginTop="10dp"
                 />
 
 
