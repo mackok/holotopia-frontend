@@ -1,6 +1,7 @@
 package com.example.hololiveapp;
 
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
@@ -10,6 +11,7 @@ public class VtuberLibraryActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         setContentView(R.layout.activity_vtuber_library);
     }
 

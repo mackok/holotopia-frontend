@@ -1218,6 +1218,7 @@ id ignore
 id ignoreRequest
 id image
 id imageView
+id imageView2
 id image_title
 id info
 id instruction_text
@@ -1328,6 +1329,7 @@ id textSpacerNoTitle
 id textView
 id textView2
 id textView3
+id textView4
 id texture_view
 id time
 id title
