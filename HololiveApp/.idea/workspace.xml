@@ -10,7 +10,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31b1ff41-65a4-4906-b91a-fac499ed5a2d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hololiveapp/GuraBioActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/hololiveapp/GuraBioActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hololiveapp/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/hololiveapp/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hololiveapp/MediaActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/hololiveapp/MediaActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hololiveapp/MoriBioActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/hololiveapp/MoriBioActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hololiveapp/NinoBioActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/hololiveapp/NinoBioActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hololiveapp/SplashActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/hololiveapp/SplashActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hololiveapp/TakaBioActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/hololiveapp/TakaBioActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hololiveapp/VtuberLibraryActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/hololiveapp/VtuberLibraryActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hololiveapp/WatsonBioActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/hololiveapp/WatsonBioActivity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +182,9 @@
       <workItem from="1610627363696" duration="597000" />
       <workItem from="1610628100629" duration="1517000" />
       <workItem from="1610629633749" duration="1302000" />
-      <workItem from="1610631314706" duration="5000" />
+      <workItem from="1610631314706" duration="1044000" />
+      <workItem from="1610632500711" duration="785000" />
+      <workItem from="1610633521188" duration="3188000" />
     </task>
     <servers />
   </component>
