@@ -14,8 +14,25 @@ public class VtuberLibraryActivity extends AppCompatActivity {
     }
 
 
-    public void guraBio(View view){
+    public void goToGuraBio(View view){
 
         startActivity(new Intent(this,GuraBioActivity.class));
+    }
+
+    public void goToMoriBio(View view){
+
+        startActivity(new Intent(this,MoriBioActivity.class));
+    }
+    public void goToNinoBio(View view){
+
+        startActivity(new Intent(this,NinoBioActivity.class));
+    }
+    public void goToTakaBio(View view){
+
+        startActivity(new Intent(this,TakaBioActivity.class));
+    }
+    public void goToWatsonBio(View view){
+
+        startActivity(new Intent(this,WatsonBioActivity.class));
     }
 }
