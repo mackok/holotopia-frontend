@@ -1025,6 +1025,7 @@ font roboto_medium_numbers
 id ALT
 id CTRL
 id FUNCTION
+id LinearGura
 id META
 id MediaB
 id NO_DEBUG
@@ -1202,6 +1203,7 @@ id fixed_height
 id fixed_width
 id flip
 id forever
+id glide_custom_view_target_tag
 id gone
 id graph
 id graph_wrap

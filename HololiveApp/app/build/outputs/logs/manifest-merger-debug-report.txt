@@ -7,6 +7,7 @@ INJECTED from C:\Users\Judicator\Documents\Front-End_Holotopia\holotopia-fronten
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Judicator\.gradle\caches\transforms-2\files-2.1\d034ca2bdf28b835f4b3742d85d787a3\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Judicator\.gradle\caches\transforms-2\files-2.1\3a4bf45ee1cd2799bf6d0559eb3917d7\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.exoplayer:exoplayer:2.12.2] C:\Users\Judicator\.gradle\caches\transforms-2\files-2.1\21e4358aa229c51a48ac38777becf619\jetified-exoplayer-2.12.2\AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\Judicator\.gradle\caches\transforms-2\files-2.1\b05b2a738edf8b82097cbcc8ce0cfd69\jetified-glide-4.11.0\AndroidManifest.xml:2:1-12:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Judicator\.gradle\caches\transforms-2\files-2.1\28174e475fcfd6ae966ed5772f6694ac\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Judicator\.gradle\caches\transforms-2\files-2.1\ce61250d0f7070aaab97d5c03ab2ab2e\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Judicator\.gradle\caches\transforms-2\files-2.1\5a84463fe3bd90b9ee3ed76258f5efd9\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:17:1-24:12
@@ -25,6 +26,8 @@ MERGED from [com.google.android.exoplayer:exoplayer-dash:2.12.2] C:\Users\Judica
 MERGED from [com.google.android.exoplayer:exoplayer-hls:2.12.2] C:\Users\Judicator\.gradle\caches\transforms-2\files-2.1\f33cd05617132bf3f491158839340307\jetified-exoplayer-hls-2.12.2\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.12.2] C:\Users\Judicator\.gradle\caches\transforms-2\files-2.1\ac7f7ae2f67107270e0d7b17a144b733\jetified-exoplayer-smoothstreaming-2.12.2\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.exoplayer:exoplayer-core:2.12.2] C:\Users\Judicator\.gradle\caches\transforms-2\files-2.1\07a70ea0dcc1186c5f4875ebac3bad41\jetified-exoplayer-core-2.12.2\AndroidManifest.xml:17:1-26:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\Judicator\.gradle\caches\transforms-2\files-2.1\2e09c7ef123dbe20d48a07a2d95cb3bd\jetified-gifdecoder-4.11.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\Judicator\.gradle\caches\transforms-2\files-2.1\0eaeed0f116c50443b846f22ed279353\exifinterface-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Judicator\.gradle\caches\transforms-2\files-2.1\3c1a5ebf565097fe10667d6b9a2c1703\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
 MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.12.2] C:\Users\Judicator\.gradle\caches\transforms-2\files-2.1\88bbb3d157d96c9c0c82597b8126ea83\jetified-exoplayer-extractor-2.12.2\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.exoplayer:exoplayer-common:2.12.2] C:\Users\Judicator\.gradle\caches\transforms-2\files-2.1\8b66117bb61e1bcd224a15e7c350615c\jetified-exoplayer-common-2.12.2\AndroidManifest.xml:17:1-26:12
@@ -72,8 +75,12 @@ application
 ADDED from C:\Users\Judicator\Documents\Front-End_Holotopia\holotopia-frontend\HololiveApp\app\src\main\AndroidManifest.xml:9:5-45:19
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Judicator\.gradle\caches\transforms-2\files-2.1\d034ca2bdf28b835f4b3742d85d787a3\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Judicator\.gradle\caches\transforms-2\files-2.1\d034ca2bdf28b835f4b3742d85d787a3\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\Judicator\.gradle\caches\transforms-2\files-2.1\b05b2a738edf8b82097cbcc8ce0cfd69\jetified-glide-4.11.0\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\Judicator\.gradle\caches\transforms-2\files-2.1\b05b2a738edf8b82097cbcc8ce0cfd69\jetified-glide-4.11.0\AndroidManifest.xml:10:5-20
 MERGED from [androidx.core:core:1.3.1] C:\Users\Judicator\.gradle\caches\transforms-2\files-2.1\905808b10bc47511b6c6896a37787f2b\core-1.3.1\AndroidManifest.xml:24:5-89
 MERGED from [androidx.core:core:1.3.1] C:\Users\Judicator\.gradle\caches\transforms-2\files-2.1\905808b10bc47511b6c6896a37787f2b\core-1.3.1\AndroidManifest.xml:24:5-89
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\Judicator\.gradle\caches\transforms-2\files-2.1\2e09c7ef123dbe20d48a07a2d95cb3bd\jetified-gifdecoder-4.11.0\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\Judicator\.gradle\caches\transforms-2\files-2.1\2e09c7ef123dbe20d48a07a2d95cb3bd\jetified-gifdecoder-4.11.0\AndroidManifest.xml:9:5-20
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Judicator\.gradle\caches\transforms-2\files-2.1\3c1a5ebf565097fe10667d6b9a2c1703\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Judicator\.gradle\caches\transforms-2\files-2.1\3c1a5ebf565097fe10667d6b9a2c1703\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
 	android:appComponentFactory
@@ -156,6 +163,8 @@ MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Judicator\.gradle\cach
 MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Judicator\.gradle\caches\transforms-2\files-2.1\3a4bf45ee1cd2799bf6d0559eb3917d7\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.exoplayer:exoplayer:2.12.2] C:\Users\Judicator\.gradle\caches\transforms-2\files-2.1\21e4358aa229c51a48ac38777becf619\jetified-exoplayer-2.12.2\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.exoplayer:exoplayer:2.12.2] C:\Users\Judicator\.gradle\caches\transforms-2\files-2.1\21e4358aa229c51a48ac38777becf619\jetified-exoplayer-2.12.2\AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\Judicator\.gradle\caches\transforms-2\files-2.1\b05b2a738edf8b82097cbcc8ce0cfd69\jetified-glide-4.11.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\Judicator\.gradle\caches\transforms-2\files-2.1\b05b2a738edf8b82097cbcc8ce0cfd69\jetified-glide-4.11.0\AndroidManifest.xml:6:5-8:41
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Judicator\.gradle\caches\transforms-2\files-2.1\28174e475fcfd6ae966ed5772f6694ac\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Judicator\.gradle\caches\transforms-2\files-2.1\28174e475fcfd6ae966ed5772f6694ac\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Judicator\.gradle\caches\transforms-2\files-2.1\ce61250d0f7070aaab97d5c03ab2ab2e\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
@@ -192,6 +201,10 @@ MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.12.2] C:\U
 MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.12.2] C:\Users\Judicator\.gradle\caches\transforms-2\files-2.1\ac7f7ae2f67107270e0d7b17a144b733\jetified-exoplayer-smoothstreaming-2.12.2\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.exoplayer:exoplayer-core:2.12.2] C:\Users\Judicator\.gradle\caches\transforms-2\files-2.1\07a70ea0dcc1186c5f4875ebac3bad41\jetified-exoplayer-core-2.12.2\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.exoplayer:exoplayer-core:2.12.2] C:\Users\Judicator\.gradle\caches\transforms-2\files-2.1\07a70ea0dcc1186c5f4875ebac3bad41\jetified-exoplayer-core-2.12.2\AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\Judicator\.gradle\caches\transforms-2\files-2.1\2e09c7ef123dbe20d48a07a2d95cb3bd\jetified-gifdecoder-4.11.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\Judicator\.gradle\caches\transforms-2\files-2.1\2e09c7ef123dbe20d48a07a2d95cb3bd\jetified-gifdecoder-4.11.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\Judicator\.gradle\caches\transforms-2\files-2.1\0eaeed0f116c50443b846f22ed279353\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\Judicator\.gradle\caches\transforms-2\files-2.1\0eaeed0f116c50443b846f22ed279353\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Judicator\.gradle\caches\transforms-2\files-2.1\3c1a5ebf565097fe10667d6b9a2c1703\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Judicator\.gradle\caches\transforms-2\files-2.1\3c1a5ebf565097fe10667d6b9a2c1703\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.12.2] C:\Users\Judicator\.gradle\caches\transforms-2\files-2.1\88bbb3d157d96c9c0c82597b8126ea83\jetified-exoplayer-extractor-2.12.2\AndroidManifest.xml:20:5-22:41
