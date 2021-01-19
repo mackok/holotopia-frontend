@@ -16,7 +16,8 @@
             android:layout_height="match_parent"
             tools:context=".NinoBioActivity"
             android:background="@color/colorPrimary"
-            android:layout_marginStart="80dp">
+            android:layout_marginStart="80dp"
+            android:id="@+id/LinearNino">
 
     <ImageView
             android:layout_width="208dp"

@@ -1,7 +1,9 @@
 package com.example.hololiveapp;
 
+import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
+import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -79,6 +81,12 @@ public class GuraBioActivity extends AppCompatActivity {
                     ImageView img = new ImageView(GuraBioActivity.this);
                     LinearLayoutCompat.LayoutParams lp = new LinearLayoutCompat.LayoutParams(500, 500);
                     img.setLayoutParams(lp);
+                    String youtubeId = videolist.get(x).getYoutube_id();
+                    img.setOnClickListener(v -> {
+                        Intent intent = new Intent(GuraBioActivity.this, MediaActivity.class);
+                        intent.putExtra("id",youtubeId);
+                        startActivity(intent);
+                    });
                     linLay.addView(img);
                     Glide.with(GuraBioActivity.this)
                             .load(videolist.get(x).getThumbnail())
