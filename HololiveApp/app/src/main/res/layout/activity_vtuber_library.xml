@@ -48,7 +48,7 @@
                 android:layout_marginStart="60dp"
                 android:layout_marginTop="5dp"
                 android:background="@color/colorPrimaryDark"
-                android:onClick="guraBio"
+                android:onClick="goToGuraBio"
                 />
 
         <ImageView
@@ -60,6 +60,7 @@
                 android:layout_marginStart="60dp"
                 android:layout_marginTop="10dp"
                 android:background="@color/colorPrimaryDark"
+                android:onClick="goToMoriBio"
                 />
 
         <ImageView
@@ -71,6 +72,7 @@
                 android:layout_marginStart="60dp"
                 android:background="@color/colorPrimaryDark"
                 android:layout_marginTop="10dp"
+                android:onClick="goToWatsonBio"
                 />
 
         <ImageView
@@ -82,6 +84,7 @@
                 android:layout_marginStart="60dp"
                 android:background="@color/colorPrimaryDark"
                 android:layout_marginTop="10dp"
+                android:onClick="goToTakaBio"
                 />
 
         <ImageView
@@ -93,6 +96,7 @@
                 android:layout_marginStart="60dp"
                 android:background="@color/colorPrimaryDark"
                 android:layout_marginTop="10dp"
+                android:onClick="goToNinoBio"
                 />
 
 

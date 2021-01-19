@@ -25,6 +25,14 @@
         android:testOnly="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true" >
+        <activity android:name="com.example.hololiveapp.MoriBioActivity" >
+        </activity>
+        <activity android:name="com.example.hololiveapp.NinoBioActivity" >
+        </activity>
+        <activity android:name="com.example.hololiveapp.WatsonBioActivity" >
+        </activity>
+        <activity android:name="com.example.hololiveapp.TakaBioActivity" >
+        </activity>
         <activity android:name="com.example.hololiveapp.GuraBioActivity" >
         </activity>
         <activity android:name="com.example.hololiveapp.VtuberLibraryActivity" >

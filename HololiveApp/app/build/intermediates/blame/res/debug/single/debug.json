@@ -8,6 +8,14 @@
         "source": "C:\\Users\\Judicator\\Documents\\Front-End_Holotopia\\holotopia-frontend\\HololiveApp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "C:\\Users\\Judicator\\Documents\\Front-End_Holotopia\\holotopia-frontend\\HololiveApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_taka_portriat.png.flat",
+        "source": "C:\\Users\\Judicator\\Documents\\Front-End_Holotopia\\holotopia-frontend\\HololiveApp\\app\\src\\main\\res\\drawable\\taka_portriat.png"
+    },
+    {
+        "merged": "C:\\Users\\Judicator\\Documents\\Front-End_Holotopia\\holotopia-frontend\\HololiveApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_nino_bio.xml.flat",
+        "source": "C:\\Users\\Judicator\\Documents\\Front-End_Holotopia\\holotopia-frontend\\HololiveApp\\app\\src\\main\\res\\layout\\activity_nino_bio.xml"
+    },
+    {
         "merged": "C:\\Users\\Judicator\\Documents\\Front-End_Holotopia\\holotopia-frontend\\HololiveApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
         "source": "C:\\Users\\Judicator\\Documents\\Front-End_Holotopia\\holotopia-frontend\\HololiveApp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
     },
@@ -40,6 +48,10 @@
         "source": "C:\\Users\\Judicator\\Documents\\Front-End_Holotopia\\holotopia-frontend\\HololiveApp\\app\\src\\main\\res\\drawable\\gura_av.png"
     },
     {
+        "merged": "C:\\Users\\Judicator\\Documents\\Front-End_Holotopia\\holotopia-frontend\\HololiveApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_nino_portrait.png.flat",
+        "source": "C:\\Users\\Judicator\\Documents\\Front-End_Holotopia\\holotopia-frontend\\HololiveApp\\app\\src\\main\\res\\drawable\\nino_portrait.png"
+    },
+    {
         "merged": "C:\\Users\\Judicator\\Documents\\Front-End_Holotopia\\holotopia-frontend\\HololiveApp\\app\\build\\intermediates\\res\\merged\\debug\\font_commando.ttf.flat",
         "source": "C:\\Users\\Judicator\\Documents\\Front-End_Holotopia\\holotopia-frontend\\HololiveApp\\app\\src\\main\\res\\font\\commando.ttf"
     },
@@ -50,6 +62,14 @@
     {
         "merged": "C:\\Users\\Judicator\\Documents\\Front-End_Holotopia\\holotopia-frontend\\HololiveApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_gura_splash.png.flat",
         "source": "C:\\Users\\Judicator\\Documents\\Front-End_Holotopia\\holotopia-frontend\\HololiveApp\\app\\src\\main\\res\\drawable\\gura_splash.png"
+    },
+    {
+        "merged": "C:\\Users\\Judicator\\Documents\\Front-End_Holotopia\\holotopia-frontend\\HololiveApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_mori_bio.xml.flat",
+        "source": "C:\\Users\\Judicator\\Documents\\Front-End_Holotopia\\holotopia-frontend\\HololiveApp\\app\\src\\main\\res\\layout\\activity_mori_bio.xml"
+    },
+    {
+        "merged": "C:\\Users\\Judicator\\Documents\\Front-End_Holotopia\\holotopia-frontend\\HololiveApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mori_portrait.png.flat",
+        "source": "C:\\Users\\Judicator\\Documents\\Front-End_Holotopia\\holotopia-frontend\\HololiveApp\\app\\src\\main\\res\\drawable\\mori_portrait.png"
     },
     {
         "merged": "C:\\Users\\Judicator\\Documents\\Front-End_Holotopia\\holotopia-frontend\\HololiveApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
@@ -88,6 +108,10 @@
         "source": "C:\\Users\\Judicator\\Documents\\Front-End_Holotopia\\holotopia-frontend\\HololiveApp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "C:\\Users\\Judicator\\Documents\\Front-End_Holotopia\\holotopia-frontend\\HololiveApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_taka_bio.xml.flat",
+        "source": "C:\\Users\\Judicator\\Documents\\Front-End_Holotopia\\holotopia-frontend\\HololiveApp\\app\\src\\main\\res\\layout\\activity_taka_bio.xml"
+    },
+    {
         "merged": "C:\\Users\\Judicator\\Documents\\Front-End_Holotopia\\holotopia-frontend\\HololiveApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\Judicator\\Documents\\Front-End_Holotopia\\holotopia-frontend\\HololiveApp\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
@@ -120,8 +144,16 @@
         "source": "C:\\Users\\Judicator\\Documents\\Front-End_Holotopia\\holotopia-frontend\\HololiveApp\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
+        "merged": "C:\\Users\\Judicator\\Documents\\Front-End_Holotopia\\holotopia-frontend\\HololiveApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_watson_portrait.png.flat",
+        "source": "C:\\Users\\Judicator\\Documents\\Front-End_Holotopia\\holotopia-frontend\\HololiveApp\\app\\src\\main\\res\\drawable\\watson_portrait.png"
+    },
+    {
         "merged": "C:\\Users\\Judicator\\Documents\\Front-End_Holotopia\\holotopia-frontend\\HololiveApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "C:\\Users\\Judicator\\Documents\\Front-End_Holotopia\\holotopia-frontend\\HololiveApp\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Judicator\\Documents\\Front-End_Holotopia\\holotopia-frontend\\HololiveApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_watson_bio.xml.flat",
+        "source": "C:\\Users\\Judicator\\Documents\\Front-End_Holotopia\\holotopia-frontend\\HololiveApp\\app\\src\\main\\res\\layout\\activity_watson_bio.xml"
     },
     {
         "merged": "C:\\Users\\Judicator\\Documents\\Front-End_Holotopia\\holotopia-frontend\\HololiveApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
@@ -150,5 +182,9 @@
     {
         "merged": "C:\\Users\\Judicator\\Documents\\Front-End_Holotopia\\holotopia-frontend\\HololiveApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_watson_banner.png.flat",
         "source": "C:\\Users\\Judicator\\Documents\\Front-End_Holotopia\\holotopia-frontend\\HololiveApp\\app\\src\\main\\res\\drawable\\watson_banner.png"
+    },
+    {
+        "merged": "C:\\Users\\Judicator\\Documents\\Front-End_Holotopia\\holotopia-frontend\\HololiveApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_gura_portrait.png.flat",
+        "source": "C:\\Users\\Judicator\\Documents\\Front-End_Holotopia\\holotopia-frontend\\HololiveApp\\app\\src\\main\\res\\drawable\\gura_portrait.png"
     }
 ]
