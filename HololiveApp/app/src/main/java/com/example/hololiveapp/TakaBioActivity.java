@@ -2,29 +2,20 @@ package com.example.hololiveapp;
 
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
+import android.os.Bundle;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
-import android.os.Bundle;
 import androidx.appcompat.widget.LinearLayoutCompat;
 import com.bumptech.glide.Glide;
-import com.example.hololiveapp.models.VideoDataModel;
-import com.fasterxml.jackson.core.type.TypeReference;
-import com.fasterxml.jackson.databind.ObjectMapper;
-
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
-import java.net.HttpURLConnection;
-import java.net.URL;
-import java.util.List;
+import com.example.hololiveapp.Api.ApiHandler;
 
 /**
  * Class that contains the layout and operations of the activity_taka_bio.xml
  */
 public class TakaBioActivity extends AppCompatActivity {
-    private List<VideoDataModel> videolist;
-    private TextView textView;
+
+    private ApiHandler apiHandler = new ApiHandler();
     private LinearLayoutCompat linLay;
     /**
      * Creates and/or sets activity parameters,functions and objects needed to display and
@@ -38,33 +29,13 @@ public class TakaBioActivity extends AppCompatActivity {
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         setContentView(R.layout.activity_taka_bio);
         linLay = findViewById(R.id.LinearTaka);
-        getApiData();
+        apiHandler.getApiData("6715");
         createImageViews();
     }
 
-    public void getApiData(){
-        Thread apiThr = new Thread(() -> {
-            try {
-                URL url = new URL("http://10.0.2.2:8080/holotopia_backend_war/hololive-members/6715/videos");
-                HttpURLConnection conn = (HttpURLConnection) url.openConnection();
-                conn.setRequestMethod("GET");
-                conn.connect();
-                ObjectMapper mapper = new ObjectMapper();
-                String inputline = "";
-                BufferedReader reader = new BufferedReader(new InputStreamReader(conn.getInputStream()));
-                StringBuilder response = new StringBuilder();
-                while ((inputline = reader.readLine()) != null) {
-                    response.append(inputline);
-                }
-                reader.close();
-                videolist = mapper.readValue(response.toString(), new TypeReference<List<VideoDataModel>>(){});
-            }catch (Exception e){
-                e.printStackTrace();
-            }
-        });
-        apiThr.start();
-    }
-
+    /**
+     * Create the ImageViews used to display thumbnails of the videos and makes them clickable
+     */
     public void createImageViews(){
         Thread imgThr = new Thread(() -> {
             try {
@@ -73,11 +44,11 @@ public class TakaBioActivity extends AppCompatActivity {
                 e.printStackTrace();
             }
             runOnUiThread(() -> {
-                for (int x = 0; x < videolist.size(); x++) {
+                for (int x = 0; x < apiHandler.getVideolist().size(); x++) {
                     ImageView img = new ImageView(TakaBioActivity.this);
                     LinearLayoutCompat.LayoutParams lp = new LinearLayoutCompat.LayoutParams(500, 500);
                     img.setLayoutParams(lp);
-                    String youtubeId = videolist.get(x).getYoutube_id();
+                    String youtubeId = apiHandler.getVideolist().get(x).getYoutube_id();
                     img.setOnClickListener(v -> {
                         Intent intent = new Intent(TakaBioActivity.this, MediaActivity.class);
                         intent.putExtra("id",youtubeId);
@@ -85,7 +56,7 @@ public class TakaBioActivity extends AppCompatActivity {
                     });
                     linLay.addView(img);
                     Glide.with(TakaBioActivity.this)
-                            .load(videolist.get(x).getThumbnail())
+                            .load(apiHandler.getVideolist().get(x).getThumbnail())
                             .override(500, 500)
                             .into(img);
                     if(img.getParent() != null) {
