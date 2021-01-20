@@ -3,4 +3,10 @@
     <string name="media_start_button">Play Media</string>
     <string name="splashtext">HoloTopia</string>
     <string name="library_button">Vtuber Gallery</string>
+    <string name="avatar_pic">avatarpicture</string>
+    <string name="library_title_text">Welcome to the Vtuber library</string>
+    <string name="library_instruction_text">Select a Vtuber</string>
+    <string name="bio">Bio</string>
+    <string name="name_ninomae_ina_nis">Ninomae Ina\'nis</string>
+    <string name="textview">TextView</string>
 </resources>
