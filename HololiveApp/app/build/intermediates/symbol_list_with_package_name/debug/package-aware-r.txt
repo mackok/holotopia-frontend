@@ -1025,8 +1025,11 @@ font roboto_medium_numbers
 id ALT
 id CTRL
 id FUNCTION
+id LinearGura
+id LinearMori
+id LinearNino
+id LinearTaka
 id META
-id MediaB
 id NO_DEBUG
 id SHIFT
 id SHOW_ALL
@@ -1202,6 +1205,7 @@ id fixed_height
 id fixed_width
 id flip
 id forever
+id glide_custom_view_target_tag
 id gone
 id graph
 id graph_wrap
@@ -1234,6 +1238,7 @@ id lin_lay
 id line1
 id line3
 id linear
+id linearWatson
 id listMode
 id list_item
 id media_actions
