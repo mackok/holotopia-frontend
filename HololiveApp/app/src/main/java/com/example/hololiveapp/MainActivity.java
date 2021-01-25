@@ -26,15 +26,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     *  Used to navigate to the MediaActivity class
-     * @param view This class represents the basic building block for user interface components.
-     *             A View occupies a rectangular area on the screen and is responsible for drawing and event handling.
-     */
-    public void PlayMedia(View view){
-        startActivity(new Intent(MainActivity.this, MediaActivity.class));
-    }
-
-    /**
      *  Used to navigate to the VtuberLibraryActivity class
      * @param view This class represents the basic building block for user interface components.
      *      *             A View occupies a rectangular area on the screen and is responsible for drawing and event handling.
